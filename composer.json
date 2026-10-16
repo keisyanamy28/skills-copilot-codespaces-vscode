@@ -1,0 +1,19 @@
+{
+  "name": "keisyanamy28/skills-copilot-codespaces-vscode",
+  "description": "API POS online untuk Tahu Uap Mas Heri (siap integrasi aplikasi Android)",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "ext-pdo": "*",
+    "ext-sqlite3": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --configuration phpunit.xml"
+  }
+}
